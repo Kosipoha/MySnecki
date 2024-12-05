@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: darksalmon;
+}
+
+header {
+    background-color: #FDE4CE;
+    color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+    flex-grow: 1;
+}
+
+.search-form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-form button:hover {
+    background-color: blue;
+}
+
+main {
+    display: left;
+    padding: 0;
+    flex: 1;
+}
+
+.filter {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.filter h2 {
+    margin-top: 0;
+}
+
+.filter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter label {
+    margin-bottom: 10px;
+}
+
+.filter select {
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.filter button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.filter button:hover {
+    background-color: blue;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.product {
+    background-color: #FDE4CE;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 23%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+}
+
+.product h2 {
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.product:hover {
+    background: #dddddd;
+}
+
+.product button:hover {
+    background: blue;
+}
+
+footer {
+    background-color: #FDE4CE;
+    color: #333;
+    text-align: left;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+footer p a img {
+    margin-left: 5px;
+    width: 32px;
+    height: 32px;
+}
+
+footer a {
+    margin-left: 5px;
+}
+
+footer .baza {
+    display: block;
+    margin: 0;
+}

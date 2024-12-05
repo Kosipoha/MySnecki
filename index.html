@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин Снеков</title>
+    <link rel="stylesheet" href="MySneck.css">
+    <link rel="icon" type="image/x-icon" href="favicon-16x16.png">
+</head>
+<body>
+    <header>
+        <img alt="MySneck" src="logo.png">
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="index3.html">Каталог</a></li>
+                <li><a href="index2.html">Контакты</a></li>
+                <li><a href="index4.html">Корзина</a></li>
+            </ul>
+            <form class="search-form">
+                <input type="text" placeholder="Поиск..." name="search">
+                <button type="submit">Искать</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <aside class="filter">
+            <h2>Фильтр</h2>
+            <form> 
+           <label for="category">Категория:
+           </label>
+            <select id="category" name="category"> 
+           <option value="all">Все</option>
+            <option value="chips">Чипсы</option>
+            <option value="chocolate">Шоколад</option>
+            <option value="drinks">Напитки</option>
+            </select>
+            <label for="price">Сортировка по цене:</label>
+            <select id="price" name="price">
+                <option value="none">Без сортировки</option>
+                <option value="asc">По возрастанию</option>
+                <option value="desc">По убыванию</option>
+            </select>
+            <button type="submit">Применить</button>
+            </form>
+        </aside>
+        <section class="products">
+            <h1>Популярные Снеки</h1>
+            <div class="product">
+                <a href="product1.html">
+                <img alt="Товар 1" src="Sneck2.png">
+                <h2>Чипсы Lava-Lava сырные 60 г.</h2>
+                <p>₽150</p>
+                </a>
+            </div>
+            <div class="product">
+                <a href="product2.html">
+                <img alt="Товар 2" src="Sneck1.png">
+                <h2>Шоколад MisterBeast молочный 90 г.</h2>
+                <p>₽200</p>
+                </a>
+            </div>
+            <div class="product">
+                <a href="product3.html">
+                <img alt="Товар 3" src="Sneck3.png">
+                <h2>Сухарики Три Корочки с холодцом 50 г</h2>
+                <p>₽100</p>
+                </a>
+            </div>
+            <div class="product">
+                <a href="product4.html">
+                <img alt="Товар 4" src="Sneck4.png">
+                <h2>Напиток Fanta Апельсин, 355 мл</h2>
+                <p>₽75</p>
+                </a>
+            </div>
+            <div class="product">
+                <a href="product5.html">
+                <img alt="Товар 5" src="Sneck5.png">
+                <h2>Кока-кола оригинальный вкус, 355 мл</h2>
+                <p>₽75</p>
+                </a>
+            </div>
+            <div class="product">
+                <a href="product6.html">
+                <img alt="Товар 6" src="Sneck6.png">
+                <h2>Напиток газированный Sprite, 355 мл</h2>
+                <p>₽75</p>
+                </a>
+            </div>
+            <div class="product">
+                <a href="product7.html">
+                <img alt="Товар 7" src="Sneck7.png">
+                <h2>Чипсы Super со вкусом краба 60 г</h2>
+                <p>₽100</p>
+            </a>
+            </div>
+            <div class="product">
+                <a href="product8.html">
+                <img alt="Товар 8" src="Sneck8.png">
+                <h2>Чипсы Super со вкусом шашлыка 60 г</h2>
+                <p>₽100</p>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="index2.html">+89106756265</a>
+        <p>По вопросам обращаться: <a href="index2.html">"kosipoher@gmail.com"</a></p>
+        <p>Мы в соц сетях <a href="https://vk.com/kosipoher" target="_blank"><img alt="VK" src="images.png"></a></p>
+        <p class="baza">&copy; 2024 Магазин Снеков. Все права защищены.</p>
+    </footer>
+</body>
+</html>

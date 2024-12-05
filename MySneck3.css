@@ -1,0 +1,261 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: darksalmon;
+}
+
+header {
+    background-color: #FDE4CE;
+    color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+    flex-grow: 1;
+}
+
+.search-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.search-form button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+    background-color: blue;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    flex: 1;
+}
+
+.filter {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.filter h2 {
+    margin-top: 0;
+}
+
+.filter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter label {
+    margin-bottom: 10px;
+}
+
+.filter select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.filter button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filter button:hover {
+    background-color: blue;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.product {
+    background-color: #FDE4CE;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 23%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+}
+
+.product h2 {
+    margin: 10px 0;
+}
+
+.product p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+}
+
+.product button:hover {
+    background-color: blue;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.pagination ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.pagination ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+footer {
+    background-color: #FDE4CE;
+    color: #333;
+    text-align: left;
+    padding: 10px 20px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+footer p a img {
+    margin-left: 5px;
+    width: 32px;
+    height: 32px;
+}
+
+footer a {
+    margin-left: 5px;
+}
+
+footer .baza {
+    display: block;
+    margin: 0;
+}
