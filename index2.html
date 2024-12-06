@@ -21,10 +21,21 @@
         </nav>
     </header>
 <main>
-    <h1>Связь с нами</h1>
-    <br>Вы можете связаться с нами по телефону:+89106756265
-    <br>Или написать нам на email: kosipoher@gmail.com
-    <br>Мы будем рады ответить на все ваши вопросы!
+     <section class="contact">
+            <h1>Свяжитесь с нами</h1>
+            <form action="submit_form.php" method="post">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
 </main>
 <footer>
     <p class="baza">&copy; 2024 Магазин Снеков. Все права защищены.</p>
